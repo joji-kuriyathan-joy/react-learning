@@ -22,6 +22,8 @@ import Todolist from './Todolist.jsx'
 import UseEffect from './UseEffect.jsx'
 import UseEffectHeightWidth from './UseEffectHeightWidth.jsx'
 import DigitalClock from "./DigitalClock.jsx"
+import ComponentA from "./UC/ComponentA.jsx"
+import UseRefHook from "./UseRefHook.jsx"
 //props = read-only properties that are shared btw components.
 //        A parent component can send data to a child component
 //       <Component key=value/>
@@ -82,6 +84,8 @@ function App() {
       <UseEffect/>
       <UseEffectHeightWidth/>
       <DigitalClock/>
+      <ComponentA/>
+      <UseRefHook/>
       <Footer/>
       
     </>
