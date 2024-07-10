@@ -19,6 +19,9 @@ import UpdateObjState from "./UpdateObjState.jsx"
 import UpdateArraySate from './UpdateArraySate.jsx'
 import ArrayObjectState from './ArrayObjectState.jsx'
 import Todolist from './Todolist.jsx'
+import UseEffect from './UseEffect.jsx'
+import UseEffectHeightWidth from './UseEffectHeightWidth.jsx'
+import DigitalClock from "./DigitalClock.jsx"
 //props = read-only properties that are shared btw components.
 //        A parent component can send data to a child component
 //       <Component key=value/>
@@ -76,6 +79,9 @@ function App() {
       <UpdateArraySate/>
       <ArrayObjectState/>
       <Todolist/>
+      <UseEffect/>
+      <UseEffectHeightWidth/>
+      <DigitalClock/>
       <Footer/>
       
     </>

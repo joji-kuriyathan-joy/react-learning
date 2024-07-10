@@ -303,3 +303,23 @@ color: red;;
   font-size: 1.4rem ;
   margin-left:10px;
 }
+
+
+.clock-container{
+  width: 500px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/background.jpg);
+  
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.192);
+}
